@@ -90,3 +90,13 @@
   padding-right: 238px;
   background-color: #303030;
 }
+.footer {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  background: #eeeeee;
+}
+.footer-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #737373;
+  font-size: 12px;
+}
