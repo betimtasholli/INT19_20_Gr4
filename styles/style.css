@@ -101,16 +101,82 @@
   background-color: #2e3f51;
 }
 
+.slider-block {
+  display: flex;
+  width: 100%;
+}
+
 .slider1 {
-  padding-left: 25px;
-  padding-right: 31px;
+  width: 30%;
   background-color: #2f3944;
+  padding: 30px 24px;
+}
+
+.titulliILajmit {
+  font-size: 24px;
+  color: #ebeced;
+}
+
+.lajmi {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #ebeced;
 }
 
 .slider2 {
-  padding-left: 247px;
-  padding-right: 238px;
+  width: 70%;
   background-color: #303030;
+}
+
+.shout {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.shoutText {
+  font-size: 22px;
+  color: #505050;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.leftArrowShout {
+  padding-left: 30px;
+  color: #2e3f51;
+}
+
+.rightArrowShout {
+  padding-right: 30px;
+  color: #2e3f51;
+}
+
+.content {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contentLeft {
+  width: 65%;
+}
+
+.tittleLC {
+  color: #1f1f1f;
+  font-size: 16px;
+}
+
+.contentLeft1 {
+  width: 50%;
+}
+
+.contentLeft2 {
+  width: 50%;
+}
+
+.contentRight {
+  width: 35%;
 }
 
 .footer {
