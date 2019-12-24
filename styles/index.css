@@ -113,12 +113,7 @@
 }
 
 .shouts {
-  padding-left: 30px;
-  padding-bottom: 50px;
-}
-
-.arrowleft {
-  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .titulliILajmit {
@@ -130,12 +125,6 @@
   padding-top: 30px;
   font-size: 16px;
   color: #ebeced;
-}
-
-.readmore {
-  padding-top: 25px;
-  text-align: right;
-  color: #cbcdd0;
 }
 
 .slider2 {
@@ -280,8 +269,8 @@
 .galleryImg3 {
   padding-right: 15px;
 }
-
 .copyright {
+  padding-bottom: 25px;
   background: #eee;
 }
 
