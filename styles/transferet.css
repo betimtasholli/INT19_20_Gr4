@@ -96,7 +96,7 @@
 
 .slider {
   width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 40px;
   background-color: #2e3f51;
 }
@@ -132,6 +132,19 @@ background-color: #2f3944;
 padding-left:15px;
 }
 
+.sliderDown{
+  width:100%;
+  background-color: #2f3944;
+}
+
+.sliderpost{
+  padding-top: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
+  width:25%;
+  background-color: #2f3944;
+
+}
 
 .copyright {
   padding-bottom: 25px;
