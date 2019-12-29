@@ -106,117 +106,171 @@
   width: 100%;
 }
 
-.slidertitle {
-  font-size: 20px;
-  color: #fff;
-  padding-bottom: 10px;
-  padding-top: 5px;
-}
-
-.slidertext {
-  color: #fff;
-  padding-bottom: 10px;
-  font-size: 14px;
-  font-weight: normal;
-}
-
-.padding-15 {
-  padding: 15px;
-}
-
-.sliderLeft {
-  width: 49%;
-  margin-right: 2%;
+.slider1 {
+  width: 30%;
   background-color: #2f3944;
+  padding: 30px 24px;
 }
 
-.sliderRight {
-  width: 49%;
-  background-color: #2f3944;
+.shouts {
+  padding-top: 30px;
+}
+
+.titulliILajmit {
+  font-size: 24px;
+  color: #ebeced;
+}
+
+.lajmi {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #ebeced;
+}
+
+.slider2 {
+  width: 70%;
+  background-color: #303030;
+}
+
+.shout {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+}
+
+.shoutText {
+  font-size: 22px;
+  color: #505050;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.leftArrowShout {
+  padding-left: 30px;
+  color: #2e3f51;
+}
+
+.rightArrowShout {
+  padding-right: 30px;
+  color: #2e3f51;
 }
 
 .content {
-  width: 100%;
   background-color: #fff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.contentpost1 {
-  padding-top: 10px;
-  padding-right: 9px;
-  width: 25%;
-  background-color: #fff;
+.contentLeft {
+  width: 65%;
 }
 
-.contentpost2 {
-  padding-top: 10px;
-  padding-left: 12px;
-  padding-right: 9px;
-  width: 25%;
-  background-color: #fff;
+.tittleLC {
+  color: #1f1f1f;
+  font-size: 16px;
+  padding-bottom: 16px;
 }
 
-.contentpost3 {
-  padding-top: 10px;
-  padding-left: 12px;
-  padding-right: 9px;
-  width: 25%;
-  background-color: #fff;
-}
-
-.contentpost4 {
-  padding-top: 10px;
-  padding-left: 12px;
-  padding-right: 9px;
-  width: 25%;
-  background-color: #fff;
-}
-
-.contentText {
-  color: #807d77;
-  padding-bottom: 10px;
+.newsLC {
   font-size: 12px;
-  font-weight: normal;
+  color: #807d77;
+}
+
+.contentLeft1 {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.contentLeft2 {
+  width: 50%;
+}
+
+.contentRight {
+  width: 35%;
+  padding-left: 30px;
+}
+
+.contentRight1 {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.RCimg {
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+.contentRight2 {
+  width: 100%;
 }
 
 .footer {
-  width: 100%;
   background-color: #eee;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
-.footerLeft {
+.about {
   width: 50%;
 }
 
-.footerLeftPhoto {
-  padding-right: 8px;
+.about1 {
+  width: 100%;
 }
 
-.footerRight {
-  width: 50%;
-  padding-left: 15px;
+.about2 {
+  padding-top: 50px;
+  width: 100%;
 }
 
-.footerRight2 {
-  padding-top: 30px;
+.aboutImg {
+  padding-right: 20px;
 }
 
-.footerTitle {
+.aboutTittle {
   color: #505050;
   font-size: 14px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
 }
 
-.footerText {
-  color: #737373;
+.aboutText {
   font-size: 12px;
-  font-weight: normal;
+  color: #737373;
 }
 
+.twiter {
+  width: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+.twiter1 {
+  color: #727272;
+  padding-bottom: 40px;
+}
+
+.twiterText {
+  font-size: 12px;
+  color: #727272;
+}
+
+.gallery {
+  width: 25%;
+  padding-left: 30px;
+}
+
+.galleryImg {
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.galleryImg3 {
+  padding-right: 15px;
+}
 .copyright {
+  padding-bottom: 25px;
   background: #eee;
 }
 
