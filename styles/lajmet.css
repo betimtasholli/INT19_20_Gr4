@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .container {
@@ -66,6 +66,7 @@
 .page-name-text {
   font-size: 26px;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 .description-text {
@@ -266,7 +267,6 @@
   padding-right: 15px;
 }
 .copyright {
-  padding-bottom: 25px;
   background: #eee;
 }
 
