@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .container {
@@ -66,6 +66,7 @@
 .page-name-text {
   font-size: 26px;
   color: #4a4a4a;
+  text-decoration: none;
 }
 
 .description-text {
@@ -271,7 +272,6 @@
   padding-right: 15px;
 }
 .copyright {
-  padding-bottom: 25px;
   background: #eee;
 }
 
@@ -289,18 +289,17 @@
   width: 85%;
   margin: auto;
   padding: 5px 5px 5px 5px;
-
 }
 
 .kontakt-text {
-  width: 100%; 
+  width: 100%;
   padding: 12px;
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 .submit-button {
@@ -311,11 +310,11 @@
   border-radius: 4px;
   cursor: pointer;
   align-items: center;
-  margin-left:auto;
-	margin-right:auto;
-	display:block;
-	margin-top:auto;
-	margin-bottom:0%
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: auto;
+  margin-bottom: 0%;
 }
 
 .submit-button:hover {
