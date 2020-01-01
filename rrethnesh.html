@@ -3,6 +3,31 @@
   <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="styles/rrethnesh.css" />
+    <script>
+      function validateForm() {
+        var x = document.forms["myForm"]["idemri"].value;
+        var y = document.forms["myForm"]["idmbiemri"].value;
+        var z = document.forms["myForm"]["idemail"].value;
+        var g = document.forms["myForm"]["idkomenti"].value;
+        if (x == "") {
+          alert("Ju lutem plotësoni emrin!");
+          return false;
+        }
+        if (y == "") {
+          alert("Ju lutem plotësoni mbiemrin!");
+          return false;
+        }
+        if (z == "") {
+          alert("Ju lutem plotësoni e-mailin!");
+          return false;
+        }
+        if (g == "") {
+          alert("Ju lutem plotësoni komentin!");
+          return false;
+        }
+
+      }
+      </script>
   </head>
 
   <body>
@@ -138,21 +163,18 @@
               <p>&Ccedil;do kritik&euml; apo sugjerim nga ana juaj vlen shum&euml; p&euml;r ne.</p>
               <p>Faleminderit p&euml;r koh&euml;n tuaj.</p></br></br>
 
-           <form action="action_page.php">
+           <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
                <label for="fname">Emri:</label>
-               <input class="kontakt-text" type="text" id="fname" name="firstname" placeholder="Emri juaj..."></br>
+               <input class="kontakt-text" type="text" id="idemri" name="firstname" placeholder="Emri juaj..."></br>
                <label for="lname">Mbiemri:</label>
-               <input class="kontakt-text" type="text" id="lname" name="lastname" placeholder="Mbiemri juaj..."></br>
+               <input class="kontakt-text" type="text" id="idmbiemri" name="lastname" placeholder="Mbiemri juaj..."></br>
                <label for="lname">E-mail:</label>
-               <input class="kontakt-text" type="text" id="lname" name="email" placeholder="E-maili juaj..."></br>
+               <input class="kontakt-text" type="text" id="idemail" name="email" placeholder="E-maili juaj..."></br>
                <label for="subject">Komenti:</label> </br>
-               <textarea class="kontakt-text" id="subject" name="subject" placeholder="Shkruaj diqka.."></textarea></br>
+               <textarea class="kontakt-text" id="idkomenti" name="subject" placeholder="Shkruaj diqka..."></textarea></br>
                <input class="submit-button" type="submit" value="Dergo">
           </form>
-        </div>
-         
-
-
+           </div>
         </div> 
       </div>
     </div>
