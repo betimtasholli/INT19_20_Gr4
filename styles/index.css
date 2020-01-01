@@ -282,3 +282,32 @@
   color: #737373;
   font-size: 12px;
 }
+
+.sub-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.sub-menu-content {
+  position: absolute;
+  display: none;
+  min-width: 136px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.sub-menu-content a {
+  color: #999999;
+  text-decoration: none;
+  padding: 8px 8px 10px 12px;
+  display: block;
+}
+
+.sub-menu-content a:hover {
+  background-color: #ddd;
+}
+
+.sub-menu:hover .sub-menu-content {
+  display: block;
+}
