@@ -138,25 +138,90 @@
     </div>
   </div>
 
+
     <div class="shout">
       <div class="container">
         <div class="flex-row">
-          <div class="leftArrowShout">
+          <div class="leftArrowShout" onclick="plusSlides(-1)">
             <img src="images/leftarrow.svg" height="60px" ; />
           </div>
           <div class="shoutText">
-            <p>
-              “ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              non diam erat. In fringilla massa ut nisi ullamcorper pellentesque
-              „
-            </p>
+            
+<div class="slideshow-container">
+  <div class="Lajmet-slideshow">
+   <p>Barcelona rikthen interesimin për Willianin – kontrata e brazilianit te Chelsea skadon në fund të sezonit.</p> 
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Arsenali këndellet në derbi, mposht Manchester Unitedin me golat e shënuar ne pjesën e parë.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Me gjithë spekulimet, Mourinho ua mbyll derën lojtarëve: Nuk do të ketë transferime në janar.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Juventus ka gati kontratën e re, dëshiron ta mbajë Ronaldon deri kur t’i mbushë 38 vjet.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Arteta mendon për transferimet e janarit tek skuadra e Arsenalit – Upamecano, i pari në listë.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Real Madridi po e mbyllë dekadën me më së paku gola të shënuara për dallim nga vitet e tjera.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Behrami pas vizitave mjekësore: Po stërvitem me Genoan, rikthimi këtu do të jetë i shkëlqyeshëm.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Messi, asistuesi më i mirë i dekadës që po lëmë pas – 28 më shumë se përcjellësi i dytë.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Lampard për fitoren ndaj Evertonit: Nuk fitoi taktika, por shpirti dhe dëshira e Chelseat.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>VAR nuk kapi momentin e lojës me dorë nga Van Dijk – aty ku edhe filloi aksioni i golit të vetëm të shënuar nga Liverpooli.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Rangers triumfojnë në derbin e çmendur skocez në fushën e Celtic, gara për titull tani bëhet edhe më interesante.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Luis Alberto: Sekreti i shkëlqimit tim është Inzaghi, dua të jem në Euro 2020 me Spanjën.</p>
+  </div>
+  <div class="Lajmet-slideshow">
+    <p>Deschamps: Shpresoj që Juventusi ta fitojë Ligën e Kampionëve, Ronaldo është kampion i vërtetë."</p>
+  </div>
+  </div>
+  
+  <script>
+  var numriiLajmit = 1;
+  shfaqLajmin(numriiLajmit);
+  
+  function plusSlides(n) {
+    shfaqLajmin(numriiLajmit += n);
+  }
+  
+  function lajmiiShfaqur(n) {
+    shfaqLajmin(numriiLajmit = n);
+  }
+  
+  function shfaqLajmin(n) {
+    var i;
+    var varguiLajmeve = document.getElementsByClassName("Lajmet-slideshow");
+    if (n > varguiLajmeve.length) {numriiLajmit = 1}    
+    if (n < 1) {numriiLajmit = varguiLajmeve.length}
+    for (i = 0; i < varguiLajmeve.length; i++) {
+        varguiLajmeve[i].style.display = "none";  
+    }
+    varguiLajmeve[numriiLajmit-1].style.display = "block";  
+  }
+  </script>
+  
           </div>
-          <div class="rightArrowShout">
+          <div class="rightArrowShout" onclick="plusSlides(1)">
             <img src="images/rightarrow.svg" height="60px;" />
           </div>
         </div>
       </div>
     </div>
+
+
     <div class="content">
       <div class="container">
         <div class="slider-block">
