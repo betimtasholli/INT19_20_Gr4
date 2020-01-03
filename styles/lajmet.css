@@ -100,6 +100,56 @@
   text-decoration: none;
 }
 
+.slider {
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: #2e3f51;
+}
+.sliderNews {
+  background-color: #212d3a;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sliderTittle {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sliderText {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.content {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-block {
+  display: flex;
+  width: 100%;
+}
+
+.contentLeft {
+  width: 50%;
+}
+
+.contentRight {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.contentBottom {
+  width: 100%;
+  padding-top: 25px;
+}
+
 .copyright {
   background: #eee;
 }
