@@ -68,6 +68,11 @@
   background-color: #fff;
 }
 
+.aktiv {
+  color: #212d3a;
+  text-decoration: none;
+}
+
 .page-name-text {
   font-size: 26px;
   color: #4a4a4a;
@@ -150,11 +155,11 @@
   padding-top: 25px;
 }
 
-.footer{
-  width:100%;
+.footer {
+  width: 100%;
   background-color: #eee;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer-block {
@@ -162,19 +167,18 @@
   width: 100%;
 }
 
-.footerLeft{
-  width:33%;
+.footerLeft {
+  width: 33%;
 }
 
-.footerCenter{
+.footerCenter {
   width: 33%;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.footerRight{
-width: 33%;
-
+.footerRight {
+  width: 33%;
 }
 
 .copyright {
@@ -221,21 +225,21 @@ width: 33%;
 }
 
 #butoni {
-	display: none; 
-	position: fixed;
-  background-color: #2e3f51;  
-	bottom: 20px;
-	right: 30px; 
-	z-index: 99; 
-  outline: none; 
-	border: none; 
-	color: white; 
-	cursor: pointer;
-	padding: 15px;
-	font-size: 18px;
+  display: none;
+  position: fixed;
+  background-color: #2e3f51;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
   border-radius: 10px;
 }
 
 #butoni:hover {
-	background-color: #555; 
+  background-color: #555;
 }
