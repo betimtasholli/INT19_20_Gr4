@@ -234,20 +234,27 @@
 
 .footer {
   background-color: #eee;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
+}
+
+.footer-block {
+  display: flex;
+  width: 100%;
 }
 
 .about {
   width: 50%;
+  padding-right: 35px;
 }
 
-.about1 {
+.aboutTop {
   width: 100%;
+  padding-bottom: 40px;
 }
 
-.about2 {
-  padding-top: 50px;
+.aboutBottom {
   width: 100%;
 }
 
@@ -258,7 +265,7 @@
 .aboutTittle {
   color: #505050;
   font-size: 14px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .aboutText {
@@ -266,35 +273,32 @@
   color: #737373;
 }
 
-.twiter {
+.twitter {
   width: 25%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 40px;
 }
 
-.twiter1 {
-  color: #727272;
+.twitterTop {
   padding-bottom: 40px;
+  padding-top: 5px;
 }
 
-.twiterText {
+.twitterText {
   font-size: 12px;
   color: #727272;
 }
 
 .gallery {
   width: 25%;
-  padding-left: 30px;
+  padding-left: 13px;
 }
 
 .galleryImg {
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding-right: 13px;
+  padding-bottom: 13px;
 }
 
 .galleryImg3 {
-  padding-right: 15px;
+  padding-right: 13px;
 }
 
 .copyright {
