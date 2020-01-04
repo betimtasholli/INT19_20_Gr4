@@ -149,7 +149,6 @@
 .readmore {
   padding-top: 25px;
   text-align: right;
-  color: #cbcdd0;
 }
 
 .slider2 {
@@ -204,6 +203,15 @@
   color: #807d77;
 }
 
+.continueReadingLeft {
+  padding-top: 5px;
+  text-align: left;
+}
+.continueReadingRight {
+  padding-top: 5px;
+  text-align: right;
+}
+
 .contentLeft1 {
   width: 50%;
   padding-right: 25px;
@@ -220,7 +228,7 @@
 
 .contentRight1 {
   width: 100%;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .RCimg {
