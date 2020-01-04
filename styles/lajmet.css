@@ -150,6 +150,33 @@
   padding-top: 25px;
 }
 
+.footer{
+  width:100%;
+  background-color: #eee;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.footer-block {
+  display: flex;
+  width: 100%;
+}
+
+.footerLeft{
+  width:33%;
+}
+
+.footerCenter{
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footerRight{
+width: 33%;
+
+}
+
 .copyright {
   background: #eee;
 }
