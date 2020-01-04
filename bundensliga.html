@@ -323,6 +323,26 @@
       </table>
     </div>
 
+    <button onclick="shkoLart()" id="butoni" title="Kthehu lart">Kthehu lart</button>
+
+      <script type="text/javascript">
+      mybutton = document.getElementById("butoni");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+      mybutton.style.display = "block";
+      } else {
+      mybutton.style.display = "none"; 
+      }
+      }
+
+      function shkoLart() {
+      document.documentElement.scrollTop = 0; 
+      }
+      </script>
+
 
 
 
