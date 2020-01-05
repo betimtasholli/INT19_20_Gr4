@@ -104,114 +104,8 @@
   text-decoration: none;
 }
 
-.slider {
-  width: 100%;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  background-color: #2e3f51;
-}
-
 .slider-block {
   display: flex;
-  width: 100%;
-}
-
-.slider1 {
-  width: 30%;
-  background-color: #2f3944;
-  padding: 30px 24px;
-}
-
-.shouts {
-  padding-top: 30px;
-}
-
-.titulliILajmit {
-  font-size: 24px;
-  color: #ebeced;
-}
-
-.lajmi {
-  padding-top: 30px;
-  font-size: 16px;
-  color: #ebeced;
-}
-
-.slider2 {
-  width: 70%;
-  background-color: #303030;
-}
-
-.shout {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: #ffffff;
-}
-
-.shoutText {
-  font-size: 22px;
-  color: #505050;
-  text-align: center;
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-.leftArrowShout {
-  padding-left: 30px;
-  color: #2e3f51;
-}
-
-.rightArrowShout {
-  padding-right: 30px;
-  color: #2e3f51;
-}
-
-.content {
-  background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.contentLeft {
-  width: 65%;
-}
-
-.tittleLC {
-  color: #1f1f1f;
-  font-size: 16px;
-  padding-bottom: 16px;
-}
-
-.newsLC {
-  font-size: 12px;
-  color: #807d77;
-}
-
-.contentLeft1 {
-  width: 50%;
-  padding-right: 25px;
-}
-
-.contentLeft2 {
-  width: 50%;
-}
-
-.contentRight {
-  width: 35%;
-  padding-left: 30px;
-}
-
-.contentRight1 {
-  width: 100%;
-  padding-bottom: 25px;
-}
-
-.RCimg {
-  padding-right: 15px;
-  padding-bottom: 10px;
-}
-
-.contentRight2 {
   width: 100%;
 }
 
@@ -221,65 +115,15 @@
   padding-bottom: 50px;
 }
 
+#emailHyperLink {
+  text-decoration: none;
+}
+
 .about {
   width: 100%;
   padding-right: 20px;
 }
 
-.about1 {
-  width: 100%;
-}
-
-.about2 {
-  padding-top: 50px;
-  width: 100%;
-}
-
-.aboutImg {
-  padding-right: 20px;
-}
-
-.aboutTittle {
-  color: #505050;
-  font-size: 14px;
-  padding-bottom: 25px;
-}
-
-.aboutText {
-  font-size: 12px;
-  color: #737373;
-}
-
-.twiter {
-  width: 25%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 40px;
-}
-
-.twiter1 {
-  color: #727272;
-  padding-bottom: 40px;
-}
-
-.twiterText {
-  font-size: 12px;
-  color: #727272;
-}
-
-.gallery {
-  width: 25%;
-  padding: 30px 60px 30px 30px;
-}
-
-.galleryImg {
-  padding-right: 15px;
-  padding-bottom: 15px;
-}
-
-.galleryImg3 {
-  padding-right: 15px;
-}
 .copyright {
   background: #eee;
 }
@@ -380,9 +224,9 @@
 }
 
 .popup {
- width: 50%;
- height: 50%;
- align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
