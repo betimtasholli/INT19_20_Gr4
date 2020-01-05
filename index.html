@@ -3,6 +3,23 @@
   <head>
     <title>Talk Football</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <script>
+      function dayandnight(){
+    var current = new Date();
+    var day_night = current.getHours();
+    if (day_night<12){
+    var copyrightBackgroundColor = document.getElementsByClassName("copyright")[0];
+    copyrightBackgroundColor.style.backgroundColor="eee";
+    
+    }
+    
+    else {
+      var copyrightBackgroundColor = document.getElementsByClassName("copyright")[0];
+    copyrightBackgroundColor.style.backgroundColor="#bababa";
+    
+      }
+    }
+    </script>
   </head>
 
   <body>
@@ -487,6 +504,9 @@
 
 
     <div class="copyright">
+      <script type="text/javascript">
+        dayandnight();
+        </script>
       <div class="container">
         <div class="copyrightline">
           <div class="flex-row">
