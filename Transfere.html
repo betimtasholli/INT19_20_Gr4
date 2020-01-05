@@ -221,7 +221,7 @@
 
 
 
-<div class="footer">
+<div id="footer">
  <div class="container">
   <div class="slider-block">
     <div class="footerLeft">
@@ -256,11 +256,30 @@
         <h3 class="footerText"> Suedezi Zlatan Ibrahimovic rikthehet tek ekipi italian Milano. Ky transferim u krye si transfer i lire pasi qe Ibrahimovicit i ka skaduar kontrata me LA Galaxy. Ai ka nenshkruar kontrate 6 mujore ku do te perfitoje <mark style="background-color: #C8D7DA  ;">3 milion&euml; euro</mark> , dhe do te kete mundesi vazhdimi edhe per nje vit. Pritet qe ridebutimin ta beje kunder Sampdorias</h3>
 
       </div>
-
     </div>
 </div>
 </div>
 </div>
+
+<div class="toggleButton">
+  <div class="container">
+    <button id="footerToggle">Fshih/Shfaq</button>
+  </div>
+</div>
+
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous">
+</script>
+<script >
+$(document).ready(function(){
+$("#footerToggle").click(function(){
+$("#footer").toggle();
+});
+});
+</script>
+
 
 <button onclick="shkoLart()" id="butoni" title="Kthehu lart">Kthehu lart</button>
 
