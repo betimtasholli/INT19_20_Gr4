@@ -190,11 +190,10 @@
   font-weight: normal;
 }
 
-.footer {
+#footer {
   width: 100%;
   background-color: #eee;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .footerLeft {
@@ -224,6 +223,13 @@
   color: #737373;
   font-size: 12px;
   font-weight: normal;
+}
+
+.toggleButton {
+  text-align: center;
+  background-color: #eee;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .copyright {
@@ -287,4 +293,17 @@
 
 #butoni:hover {
   background-color: #555;
+}
+
+#footerToggle {
+  background-color: #2e3f51;
+  color: white;
+  cursor: pointer;
+  bottom: 20px;
+  right: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
 }
