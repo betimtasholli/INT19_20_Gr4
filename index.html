@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html manifest="talk.appcache">
   <head>
     <title>Talk Football</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <script>
+      
       function dayandnight(){
     var current = new Date();
     var day_night = current.getHours();
     if (day_night<12){
     var copyrightBackgroundColor = document.getElementsByClassName("copyright")[0];
-    copyrightBackgroundColor.style.backgroundColor="eee";
-    
+    localStorage.setItem("backgroundColor" , "#eee");
+    copyrightBackgroundColor.style.backgroundColor=localStorage.getItem("backgroundColor");
     }
     
     else {
       var copyrightBackgroundColor = document.getElementsByClassName("copyright")[0];
-    copyrightBackgroundColor.style.backgroundColor="#bababa";
-    
+    localStorage.setItem("backgroundColor" , "#bababa");
+    copyrightBackgroundColor.style.backgroundColor=localStorage.getItem("backgroundColor");
       }
     }
     </script>
@@ -144,7 +145,7 @@
               kampionatit.
             </h3>
             <div class="readmore">
-            <a href="#" style="text-decoration: none; color: #cbcdd0;">Read More</a>
+            <a href="#" style="text-decoration: none; color: #cbcdd0;">Lexo më shumë</a>
             </div>
           </div>
         </div>
@@ -259,7 +260,7 @@
                   Arsenalit.
                 </h3>
                 <div class="continueReadingLeft">
-                  <a href="#" style="text-decoration: none; font-weight: bold; color:#2e3f51; font-size: 12px; "> Continue reading >> </a>
+                  <a href="#" style="text-decoration: none; font-weight: bold; color:#2e3f51; font-size: 12px; "> Vazhdo leximin >> </a>
                 </div>
               </div>
               <div class="contentLeft2">
@@ -275,7 +276,7 @@
                   Salzburgut , Haaland. Mbetet te shihet a do ta pranoje oferten.
                 </h3>
                 <div class="continueReadingLeft">
-                  <a href="#" style="text-decoration: none; font-weight: bold; color:#2e3f51; font-size: 12px; "> Continue reading >> </a>
+                  <a href="#" style="text-decoration: none; font-weight: bold; color:#2e3f51; font-size: 12px; "> Vazhdo leximin >> </a>
                 </div>
               </div>
             </div>
@@ -298,7 +299,7 @@
                 Stegen beri punen e tij ne menyren me te mire .
               </h3>
               <div class="continueReadingRight">
-                <a href="#" style="text-decoration: none; font-weight: bold; color:#2e3f51; font-size: 12px; "> Continue reading >> </a>
+                <a href="#" style="text-decoration: none; font-weight: bold; color:#2e3f51; font-size: 12px; "> Vazhdo leximin >> </a>
               </div>
             </div>
             <div class="contentRight2">
@@ -316,7 +317,7 @@
                 ta bejne ate.
               </h3>
               <div class="continueReadingRight">
-                <a href="#" style="text-decoration: none; color:#2e3f51; font-size: 12px; font-weight: bold; "> Continue reading >> </a>
+                <a href="#" style="text-decoration: none; color:#2e3f51; font-size: 12px; font-weight: bold; "> Vazhdo leximin >> </a>
               </div>
             </div>
           </div>
