@@ -172,28 +172,31 @@
                <input class="kontakt-text" type="text" id="idemri" name="firstname" placeholder="Emri juaj..."></br>
                <label for="lname">Mbiemri:</label>
                <input class="kontakt-text" type="text" id="idmbiemri" name="lastname" placeholder="Mbiemri juaj..."></br>
-               <label for="fname">Gjinia:</label></br>
-               <input type="radio" name="gender" value="M"> M</br>
-               <input type="radio" name="gender" value="F"> F<br> </br>
-               <label for="fname">Cilet nga sponsoret tane perdorni ju:</label></br>
-               <input type="checkbox" name="sponsor1" value="One Football App"> One Football App<br>
-               <input type="checkbox" name="sponsor2" value="Flashscore"> Livescore<br>
-               <input type="checkbox" name="sponsor3" value="PES"> PES<br>
-               <input type="checkbox" name="sponsor3" value="all"> Te gjitha me lart<br></br>
                <label for="lname">E-mail:</label>
                <input class="kontakt-text" type="text" id="idemail" name="email" placeholder="E-maili juaj..."></br>
-               <label for="lname">Fjal&euml;kalimi:</label></br>
-               <input class="kontakt-text" type="password" id="idemail" name="password" placeholder="Fjal&euml;kalimi juaj..."></br>
                <label for="subject">Komenti:</label> </br>
-
                <textarea class="kontakt-text" id="idkomenti" name="subject" placeholder="Shkruaj diqka..."></textarea></br>
-
-               <input class="submit-button" type="submit" value="Dergo">
+               <input class="submit-button" type="submit" value="Dergo"><br><br><br>
           </form>
            </div>
         </div> 
-      </div>
+        <hr>
+        <div class="popup"><br><br>
+          <h3 style="text-align: center;">Regjistrohuni</h3><br>
+       <p>Klikoni n&euml; butonin e m&euml; posht&euml;m p&euml;r tu regjistruar n&euml; faq&euml;n ton&euml;.</p><br>
+       <button class="submit-button" onclick="myFunction2()">Regjistrohuni</button>
+
+<script>
+function myFunction2() {
+  var myWindow = window.open("\popup.html","","width=600,height=700");
+}
+</script>
     </div>
+      </div>
+      
+    </div>
+
+  
 
     <button onclick="shkoLart()" id="butoni" title="Kthehu lart">Kthehu lart</button>
 

@@ -378,3 +378,11 @@
 #butoni:hover {
   background-color: #555;
 }
+
+.popup {
+ width: 50%;
+ height: 50%;
+ align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
