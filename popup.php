@@ -30,7 +30,8 @@
           placeholder="Shkruani email tuaj..."
           name="Email"
           id="idemail"
-        /><br />
+        />
+        <br />
         <label for="password">Password:</label>
         <input
           type="password"

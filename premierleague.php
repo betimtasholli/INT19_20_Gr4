@@ -77,7 +77,7 @@
       <div class="container">
         <div class="flex-row">
           <div>
-            <a class="page-name-text" href="index.html">
+            <a class="page-name-text" href="index.php">
               Talk Football
             </a>
             <p class="description-text">
@@ -86,24 +86,24 @@
           </div>
           <div class="menu">
             <ul>
-              <li><a class="header-link" href="index.html">Kreu</a></li>
-              <li><a class="header-link" href="lajmet.html">Lajme</a></li>
+              <li><a class="header-link" href="index.php">Kreu</a></li>
+              <li><a class="header-link" href="lajmet.php">Lajme</a></li>
               <li>
-                <a class="header-link" href="transfere.html">Transfere</a>
+                <a class="header-link" href="transfere.php">Transfere</a>
               </li>
               <li>
                 <div class="sub-menu">
                   <a class="aktiv">Tabelat</a>
                   <div class="sub-menu-content">
-                    <a href="premierleague.html">Premier League</a>
-                    <a href="laliga.html">La Liga</a>
-                    <a href="seriea.html">Serie A</a>
-                    <a href="bundensliga.html">Bundesliga</a>
+                    <a href="premierleague.php">Premier League</a>
+                    <a href="laliga.php">La Liga</a>
+                    <a href="seriea.php">Serie A</a>
+                    <a href="bundensliga.php">Bundesliga</a>
                   </div>
                 </div>
               </li>
               <li>
-                <a class="header-link" href="rrethnesh.html">Rreth nesh</a>
+                <a class="header-link" href="rrethnesh.php">Rreth nesh</a>
               </li>
             </ul>
           </div>
