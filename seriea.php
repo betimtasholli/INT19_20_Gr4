@@ -77,7 +77,7 @@
       <div class="container">
         <div class="flex-row">
           <div>
-            <a class="page-name-text" href="index.html">
+            <a class="page-name-text" href="index.php">
               Talk Football
             </a>
             <p class="description-text">
@@ -86,20 +86,20 @@
           </div>
           <div class="menu">
             <ul>
-              <li><a class="header-link" href="index.html">Kreu</a></li>
-              <li><a class="header-link" href="lajmet.html">Lajme</a></li>
-              <li><a class="header-link" href="transfere.html">Transfere</a></li>
+              <li><a class="header-link" href="index.php">Kreu</a></li>
+              <li><a class="header-link" href="lajmet.php">Lajme</a></li>
+              <li><a class="header-link" href="transfere.php">Transfere</a></li>
               <li>
                 <div class="sub-menu"><a class="aktiv">Tabelat</a>
                   <div class="sub-menu-content">
-                    <a href="premierleague.html">Premier League</a>
-                    <a href="laliga.html">La Liga</a>
-                    <a href="seriea.html">Serie A</a>
-                    <a href="bundensliga.html">Bundesliga</a>
+                    <a href="premierleague.php">Premier League</a>
+                    <a href="laliga.php">La Liga</a>
+                    <a href="seriea.php">Serie A</a>
+                    <a href="bundensliga.php">Bundesliga</a>
                   </div>
                 </div>
               </li>
-              <li><a class="header-link" href="rrethnesh.html">Rreth nesh</a></li>
+              <li><a class="header-link" href="rrethnesh.php">Rreth nesh</a></li>
             </ul>
           </div>
         </div>
@@ -108,7 +108,7 @@
   
     <div class="container">
       <div class="widelogo">
-        <img src="images/bundensliga.png" style="width:auto; height: 150px; margin-left: auto; margin-right: auto; display: block;"/>
+        <img src="images/seriea.png" style="width:auto; height: 150px; margin-left: auto; margin-right: auto; display: block;"/>
       </div>
       <table style="color: #656565; padding-bottom: 50px;"> 
         <tr class="bottomBorder" bgcolor="#fff" height="35">
@@ -124,204 +124,227 @@
         </tr>
         <tr class="bottomBorder" bgcolor="#fff" height="30">      
           <td width="32" align="center" style= " background-color:#004682; color:#fff;">1.</td>
-          <td width="70" align="center"><img src="images/Leipzig.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">RB Liepzig</td>
+          <td width="70" align="center"><img src="images/inter.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Inter</td>
           <td width="100" align="center">17</td>
-          <td width="100" align="center">11</td>
-          <td width="100" align="center">4</td>
-          <td width="100" align="center">2</td>
-          <td width="100" align="center">27</td>
-          <td width="100" align="center">37</td>
+          <td width="100" align="center">13</td>
+          <td width="100" align="center">3</td>
+          <td width="100" align="center">1</td>
+          <td width="100" align="center">22</td>
+          <td width="100" align="center">42</td>
         </tr>
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#004682; color:#fff;">2.</td>
-          <td width="70" align="center"><img src="images/Monchengladbach.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">B. Monchengladbach</td>
+          <td width="70" align="center"><img src="images/Juventus.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Juventus</td>
           <td width="100" align="center">17</td>
-          <td width="100" align="center">11</td>
-          <td width="100" align="center">2</td>
-          <td width="100" align="center">4</td>
-          <td width="100" align="center">15</td>
-          <td width="100" align="center">35</td>
+          <td width="100" align="center">13</td>
+          <td width="100" align="center">3</td>
+          <td width="100" align="center">1</td>
+          <td width="100" align="center">14</td>
+          <td width="100" align="center">42</td>
         </tr>
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#004682; color:#fff;">3.</td>
-          <td width="70" align="center"><img src="images/Bayern.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Bayern Munich</td>
-          <td width="100" align="center">17</td>
+          <td width="70" align="center"><img src="images/lazio.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Lazio</td>
+          <td width="100" align="center">16</td>
           <td width="100" align="center">11</td>
           <td width="100" align="center">3</td>
-          <td width="100" align="center">4</td>
-          <td width="100" align="center">24</td>
-          <td width="100" align="center">33</td>
+          <td width="100" align="center">2</td>
+          <td width="100" align="center">22</td>
+          <td width="100" align="center">36</td>
         </tr>      
           <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#004682; color:#fff;">4.</td>
-          <td width="70" align="center"><img src="images/Dortmund.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Dortmund</td>
+          <td width="70" align="center"><img src="images/roma.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">AS Roma</td>
           <td width="100" align="center">17</td>
-          <td width="100" align="center">8</td>
-          <td width="100" align="center">6</td>
-          <td width="100" align="center">3</td>
-          <td width="100" align="center">17</td>
-          <td width="100" align="center">30</td>
+          <td width="100" align="center">10</td>
+          <td width="100" align="center">5</td>
+          <td width="100" align="center">2</td>
+          <td width="100" align="center">16</td>
+          <td width="100" align="center">35</td>
         </tr>      
           <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#7f0029; color:#fff;">5.</td>
-          <td width="70" align="center"><img src="images/Schalke.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Schalke</td>
+          <td width="70" align="center"><img src="images/atalanta.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Atalanta</td>
           <td width="100" align="center">17</td>
+          <td width="100" align="center">9</td>
+          <td width="100" align="center">4</td>
+          <td width="100" align="center">4</td>
           <td width="100" align="center">8</td>
-          <td width="100" align="center">6</td>
-          <td width="100" align="center">3</td>
-          <td width="100" align="center">8</td>
-          <td width="100" align="center">30</td>
+          <td width="100" align="center">31</td>
         </tr>       
          <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">6.</td>
-          <td width="70" align="center"><img src="images/Leverkusen.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Bayer Leverkusen</td>
+          <td width="70" align="center"><img src="images/cagliari.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Cagliari</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">8</td>
-          <td width="100" align="center">4</td>
           <td width="100" align="center">5</td>
-          <td width="100" align="center">2</td>
-          <td width="100" align="center">28</td>
+          <td width="100" align="center">4</td>
+          <td width="100" align="center">10</td>
+          <td width="100" align="center">29</td>
         </tr>                
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">7.</td>
-          <td width="70" align="center"><img src="images/Hoffenheim.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Hoffenheim</td>
+          <td width="70" align="center"><img src="images/Parma.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Parma</td>
           <td width="100" align="center">17</td>
-          <td width="100" align="center">8</td>
-          <td width="100" align="center">3</td>
+          <td width="100" align="center">7</td>
+          <td width="100" align="center">4</td>
           <td width="100" align="center">6</td>
-          <td width="100" align="center">-3</td>
-          <td width="100" align="center">27</td>
+          <td width="100" align="center">4</td>
+          <td width="100" align="center">25</td>
         </tr>         
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">8.</td>
-          <td width="70" align="center"><img src="images/Freiburg.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Freiburg</td>
+          <td width="70" align="center"><img src="images/napoli.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Napoli</td>
           <td width="100" align="center">17</td>
-          <td width="100" align="center">7</td>
+          <td width="100" align="center">6</td>
+          <td width="100" align="center">6</td>
           <td width="100" align="center">5</td>
           <td width="100" align="center">5</td>
-          <td width="100" align="center">4</td>
-          <td width="100" align="center">26</td>
+          <td width="100" align="center">24</td>
         </tr>               
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">9.</td>
-          <td width="70" align="center"><img src="images/Wolfsburg.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Wolfsburg</td>
+          <td width="70" align="center"><img src="images/Bologna.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Bologna</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">6</td>
-          <td width="100" align="center">6</td>
-          <td width="100" align="center">5</td>
-          <td width="100" align="center">0</td>
-          <td width="100" align="center">24</td>
+          <td width="100" align="center">4</td>
+          <td width="100" align="center">7</td>
+          <td width="100" align="center">-2</td>
+          <td width="100" align="center">22</td>
         </tr>         
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">10.</td>
-          <td width="70" align="center"><img src="images/Augsburg.png" width="25px" height="25px"/></td>
-          <td width="100" align="left">Augsburg</td>
+          <td width="70" align="center"><img src="images/torino.png" width="25px" height="25px"/></td>
+          <td width="100" align="left">Torino</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">6</td>
-          <td width="100" align="center">5</td>
-          <td width="100" align="center">6</td>
-          <td width="100" align="center">-3</td>
-          <td width="100" align="center">23</td>
+          <td width="100" align="center">3</td>
+          <td width="100" align="center">8</td>
+          <td width="100" align="center">-4</td>
+          <td width="100" align="center">21</td>
         </tr>                
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">11.</td>
-          <td width="70" align="center"><img src="images/UnionBerlin.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Union Berlin</td>
+          <td width="70" align="center"><img src="images/Milan.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">AC Milan</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">6</td>
-          <td width="100" align="center">2</td>
-          <td width="100" align="center">9</td>
-          <td width="100" align="center">-4</td>
-          <td width="100" align="center">20</td>
+          <td width="100" align="center">3</td>
+          <td width="100" align="center">8</td>
+          <td width="100" align="center">-8</td>
+          <td width="100" align="center">21</td>
         </tr>        
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">12.</td>
-          <td width="70" align="center"><img src="images/Hertha.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Hertha Berlin</td>
-          <td width="100" align="center">17</td>
+          <td width="70" align="center"><img src="images/verona.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Verona</td>
+          <td width="100" align="center">16</td>
           <td width="100" align="center">5</td>
           <td width="100" align="center">4</td>
-          <td width="100" align="center">8</td>
-          <td width="100" align="center">-7</td>
+          <td width="100" align="center">7</td>
+          <td width="100" align="center">-3</td>
           <td width="100" align="center">19</td>
         </tr>                
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">13.</td>
-          <td width="70" align="center"><img src="images/Eintracht.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Eintracht Frankfurt</td>
+          <td width="70" align="center"><img src="images/sassuolo.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Sassuolo</td>
+          <td width="100" align="center">17</td>
+          <td width="100" align="center">5</td>
+          <td width="100" align="center">4</td>
+          <td width="100" align="center">8</td>
+          <td width="100" align="center">0</td>
+          <td width="100" align="center">19</td>
+        </tr>        
+        <tr class="bottomBorder" bgcolor="#fff" height="30">
+          <td width="32" align="center" style= " background-color:#f3f3f3;">14.</td>
+          <td width="70" align="center"><img src="images/Udinese.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Udinese</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">5</td>
           <td width="100" align="center">3</td>
           <td width="100" align="center">9</td>
-          <td width="100" align="center">-2</td>
-          <td width="100" align="center">18</td>
-        </tr>        
-        <tr class="bottomBorder" bgcolor="#fff" height="30">
-          <td width="32" align="center" style= " background-color:#f3f3f3;">14.</td>
-          <td width="70" align="center"><img src="images/Mainz.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Mainz</td>
-          <td width="100" align="center">17</td>
-          <td width="100" align="center">6</td>
-          <td width="100" align="center">0</td>
-          <td width="100" align="center">11</td>
-          <td width="100" align="center">-14</td>
+          <td width="100" align="center">-15</td>
           <td width="100" align="center">18</td>
         </tr>                
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#f3f3f3;">15.</td>
-          <td width="70" align="center"><img src="images/Koln.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">FC Koln</td>
+          <td width="70" align="center"><img src="images/fiorentina.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Fiorentina</td>
           <td width="100" align="center">17</td>
+          <td width="100" align="center">4</td>
           <td width="100" align="center">5</td>
-          <td width="100" align="center">2</td>
-          <td width="100" align="center">10</td>
-          <td width="100" align="center">-13</td>
+          <td width="100" align="center">8</td>
+          <td width="100" align="center">-7</td>
           <td width="100" align="center">17</td>
-        </tr>                              
+        </tr>        
         <tr class="bottomBorder" bgcolor="#fff" height="30">
-          <td width="32" align="center" style= " background-color:#bd0000; color:#fff;">16.</td>
-          <td width="70" align="center"><img src="images/dusseldorf.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Dusseldorf</td>
+          <td width="32" align="center" style= " background-color:#f3f3f3;">16.</td>
+          <td width="70" align="center"><img src="images/lecce.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Lecce</td>
+          <td width="100" align="center">17</td>
+          <td width="100" align="center">3</td>
+          <td width="100" align="center">6</td>
+          <td width="100" align="center">8</td>
+          <td width="100" align="center">-13</td>
+          <td width="100" align="center">15</td>
+        </tr>                
+        <tr class="bottomBorder" bgcolor="#fff" height="30">
+          <td width="32" align="center" style= " background-color:#f3f3f3;">17.</td>
+          <td width="70" align="center"><img src="images/sampdoria.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Sampdoria</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">4</td>
           <td width="100" align="center">3</td>
           <td width="100" align="center">10</td>
-          <td width="100" align="center">-18</td>
+          <td width="100" align="center">-13</td>
           <td width="100" align="center">15</td>
-        </tr>               
-        <tr class="bottomBorder" bgcolor="#fff" height="30">
-          <td width="32" align="center" style= " background-color:#bd0000; color:#fff;">17.</td>
-          <td width="70" align="center"><img src="images/Werder.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Werder Bremen</td>
-          <td width="100" align="center">17</td>
-          <td width="100" align="center">3</td>
-          <td width="100" align="center">5</td>
-          <td width="100" align="center">9</td>
-          <td width="100" align="center">-28</td>
-          <td width="100" align="center">14</td>
         </tr>        
         <tr class="bottomBorder" bgcolor="#fff" height="30">
           <td width="32" align="center" style= " background-color:#bd0000; color:#fff;">18.</td>
-          <td width="70" align="center"><img src="images/Paderborn.png" width="25px" height="25px"/></td>
-          <td width="500" align="left">Paderborn</td>
+          <td width="70" align="center"><img src="images/brescia.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Brecsia</td>
+          <td width="100" align="center">17</td>
+          <td width="100" align="center">4</td>
+          <td width="100" align="center">2</td>
+          <td width="100" align="center">11</td>
+          <td width="100" align="center">-14</td>
+          <td width="100" align="center">14</td>
+        </tr>               
+        <tr class="bottomBorder" bgcolor="#fff" height="30">
+          <td width="32" align="center" style= " background-color:#bd0000; color:#fff;">19.</td>
+          <td width="70" align="center"><img src="images/spal.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Spal</td>
           <td width="100" align="center">17</td>
           <td width="100" align="center">3</td>
           <td width="100" align="center">3</td>
           <td width="100" align="center">11</td>
-          <td width="100" align="center">-16</td>
+          <td width="100" align="center">-14</td>
           <td width="100" align="center">12</td>
+        </tr>        
+        <tr class="bottomBorder" bgcolor="#fff" height="30">
+          <td width="32" align="center" style= " background-color:#bd0000; color:#fff;">20.</td>
+          <td width="70" align="center"><img src="images/Genoa.png" width="25px" height="25px"/></td>
+          <td width="500" align="left">Genoa</td>
+          <td width="100" align="center">17</td>
+          <td width="100" align="center">2</td>
+          <td width="100" align="center">5</td>
+          <td width="100" align="center">10</td>
+          <td width="100" align="center">-22</td>
+          <td width="100" align="center">11</td>
         </tr>
       </table>
     </div>
+
 
     <button onclick="shkoLart()" id="butoni" title="Kthehu lart">Kthehu lart</button>
 

@@ -85,7 +85,7 @@ crossorigin="anonymous">
       <div class="container">
         <div class="flex-row">
           <div>
-            <a class="page-name-text" href="index.html">
+            <a class="page-name-text" href="index.php">
               Talk Football
             </a>
             <p class="description-text">
@@ -94,20 +94,20 @@ crossorigin="anonymous">
           </div>
           <div class="menu">
             <ul>
-              <li><a class="header-link" href="index.html">Kreu</a></li>
-              <li><a class="header-link" href="lajmet.html">Lajme</a></li>
-              <li><a class="aktiv" href="transfere.html">Transfere</a></li>
+              <li><a class="header-link" href="index.php">Kreu</a></li>
+              <li><a class="header-link" href="lajmet.php">Lajme</a></li>
+              <li><a class="aktiv" href="transfere.php">Transfere</a></li>
               <li>
                 <div class="sub-menu"><a class="header-link">Tabelat</a>
                   <div class="sub-menu-content">
-                    <a href="premierleague.html">Premier League</a>
-                    <a href="laliga.html">La Liga</a>
-                    <a href="seriea.html">Serie A</a>
-                    <a href="bundensliga.html">Bundesliga</a>
+                    <a href="premierleague.php">Premier League</a>
+                    <a href="laliga.php">La Liga</a>
+                    <a href="seriea.php">Serie A</a>
+                    <a href="bundensliga.php">Bundesliga</a>
                   </div>
                 </div>
               </li>
-              <li><a class="header-link" href="rrethnesh.html">Rreth nesh</a></li>
+              <li><a class="header-link" href="rrethnesh.php">Rreth nesh</a></li>
             </ul>
           </div>
         </div>
@@ -126,7 +126,7 @@ crossorigin="anonymous">
           <section> 
             <h1 class="slidertitle">Zyrtare : De Ligt futbollist i Juventusit</h1>
             <h3 class="slidertext">Juventus FC njofton se marr&euml;veshja me Amsterdamsche Football Club Ajax NV p&euml;r blerjen p&euml;rfundimtare t&euml; t&euml; drejtave t&euml; regjistrimit t&euml; lojtarit Matthijs de Ligt &euml;sht&euml; arritur p&euml;r nj&euml; shum&euml; prej 75 milion&euml; euro, e pagueshme p&euml;r pes&euml; vite financiare, dhe kosto shtes&euml; prej 10,5 milion&euml; euro".
-             "Juventusi dhe lojtari kan&euml; n&euml;nshkruar nj&euml; kontrat&euml; 5-vje&ccedil;are deri m&euml; 30 qershor 2024&rdquo;, thuhet n&euml; njoftimin e klubit italian. Kuptohet q&euml; <mark style="background-color: #999999  ;">10.5 milion&euml; euro.</mark> shpenzime shtes&euml; shkojn&euml; drejt komisionit p&euml;r agjentin e tij Mino Raiola, nd&euml;rsa lojtari do t&euml; fitoj&euml; 12 milion&euml; euro n&euml; vit, s&euml; bashku me bonuse. </h3>
+             "Juventusi dhe lojtari kan&euml; n&euml;nshkruar nj&euml; kontrat&euml; 5-vje&ccedil;are deri m&euml; 30 qershor 2024&rdquo;, thuhet n&euml; njoftimin e klubit italian. Kuptohet q&euml; 10.5 milion&euml; euro shpenzime shtes&euml; shkojn&euml; drejt komisionit p&euml;r agjentin e tij Mino Raiola, nd&euml;rsa lojtari do t&euml; fitoj&euml; 12 milion&euml; euro n&euml; vit, s&euml; bashku me bonuse. </h3>
             </section>
             </div>
            </div>
@@ -141,7 +141,7 @@ crossorigin="anonymous">
             <h1 class="slidertitle">Harry Kane afer transferimit te PSG</h1>
           <h3 class="slidertext">Sulmuesi anglez, Harry Kane mund t&euml; jet&euml; transferimi i par&euml; i PSG gjat&euml; afatit kalimtar t&euml; janarit.Pas paraqitjeve fantastike me Tottenhamin n&euml; dy vitet e fundit, Harry Kane &euml;sht&euml; b&euml;r&euml; nj&euml;ri nd&euml;r sulmuesit m&euml; t&euml; k&euml;rkuar.
             Anglezi i talentuar s&euml; fundmi &euml;sht&euml; lidhur me nj&euml; kalim t&euml; mundsh&euml;m tek gjiganti francez Paris SG.
-            Mediat spanjolle kan&euml; shkruar se PSG do t&euml; ofroj&euml; rreth <mark style="background-color: #999999  ;">200 milion&euml; euro</mark> gjat&euml; muajit janar p&euml;r transferimin e Kanes n&euml; "Le Parc des Princes".Gjithashtu p&euml;r Kane mbeten n&euml; gar&euml; edhe skuadrat tjera t&euml; m&euml;dha si Chelsea, Man United dhe Manchester City.&nbsp;</h3>
+            Mediat spanjolle kan&euml; shkruar se PSG do t&euml; ofroj&euml; rreth 200 milion&euml; euro gjat&euml; muajit janar p&euml;r transferimin e Kanes n&euml; "Le Parc des Princes".Gjithashtu p&euml;r Kane mbeten n&euml; gar&euml; edhe skuadrat tjera t&euml; m&euml;dha si Chelsea, Man United dhe Manchester City.&nbsp;</h3>
           </section>
           </div>
           </div>
@@ -161,7 +161,7 @@ crossorigin="anonymous">
         <img id="kessie" src="images/kessie.jpg" width="223" height="131" alt="kessie">
       <h3 class="contentText">Mesfushori i Milanit, Franck Kessie mund t&euml;
          largohet p&euml;r n&euml; Lig&euml;n Premier n&euml;se klubet
-         angleze paguajn&euml; <mark style="background-color: #C8D7DA  ;">20 milion&euml; euro</mark> p&euml;r sh&euml;rbimet e tij.</h3>
+         angleze paguajn&euml; 20 milion&euml; euro p&euml;r sh&euml;rbimet e tij.</h3>
       </div>
 
       <div class="contentpost2">
@@ -175,7 +175,7 @@ crossorigin="anonymous">
         <img src="images/kurzawa.jpg" width="223" height="131" alt="kurzawa">
         <h3 class="contentText">Kurzawa pritet ti bashkohet Interit n&euml; afatin e janarit, transferimi
            i Kurzawas n&euml; Serie A pritet t&rsquo;i kushtoj&euml; Interit jo m&euml; shum&euml; se
-           <mark style="background-color: #C8D7DA  ;">3 milion&euml; euro</mark>.&nbsp;</h3>
+           3 milion&euml; euro.&nbsp;</h3>
       </div>
 
       <div class="contentpost4">
@@ -192,7 +192,7 @@ crossorigin="anonymous">
       <div class="contentpost1">
         <img src="images/ruiz.jpg" width="223" height="131" alt="ruiz">
       <h3 class="contentText">Klubi i madh spanjoll, Real Madridi mendohet se po p&euml;rgatit
-         nj&euml; ofert&euml; gjat&euml; ver&euml;s prej <mark style="background-color: #C8D7DA  ;">70 milion eurosh</mark> p&euml;r mesfushorin 
+         nj&euml; ofert&euml; gjat&euml; ver&euml;s prej 70 milion eurosh p&euml;r mesfushorin 
          e Napolit, Fabian Ruiz.</h3>
     </div>
 
@@ -208,7 +208,7 @@ crossorigin="anonymous">
       <img src="images/sancho.jpg" width="223" height="131" alt="sancho">
       <h3 class="contentText">Chelsea po e k&euml;rkon me ngulm transferimin e Jadon Sanchos nga Borussia Dortmundi.
          Daily Mail&nbsp;raporton se skuadra gjermane u ka b&euml;r&euml; me dije bluve se 
-         p&euml;r ta transferuar Sanchon, duhet t&euml; paguajn&euml; <mark style="background-color: #C8D7DA  ;">120 milion&euml; euro.</mark></h3>
+         p&euml;r ta transferuar Sanchon, duhet t&euml; paguajn&euml; 120 milion&euml; euro.</h3>
     </div>
 
     <div class="contentpost4">
@@ -236,8 +236,8 @@ crossorigin="anonymous">
         <h1 class="footerTitle">Icardi te PSG p&euml;r teste mjek&euml;sore</h1>
          <h3 class="footerText">Mauro Icardi m&euml; nuk &euml;sht&euml; lojtari i skuadr&euml;s s&euml; Interit, ku kaloi p&euml;r gjasht&euml; vite t&euml; karrier&euml;s si futbollist.</strong>
           Sulmuesi argjentinas tashm&euml; &euml;sht&euml; huazuar te francez&euml;t e Paris Saint-Germain, e cila n&euml; fund t&euml; sezonit mund ta blej&euml; kartonin e lojtarit.
-          Sipas raportimeve t&euml; para, futbollisti do t&euml; ark&euml;toj&euml; <mark style="background-color: #C8D7DA  ;">8 milion&euml; euro.</mark> n&euml; vit plus bonuset q&euml; do t&euml; jen&euml; t&euml; varura prej rezultateve pozitive t&euml; kampionit t&euml; Ligue 1.
-          Theksojm&euml; se parisien&euml;t do t&euml; ken&euml; mund&euml;si q&euml; n&euml; fund t&euml; sezonin ta transferojn&euml; futbollistin, i cili do t&rsquo;iu kushtoj&euml; <mark style="background-color: #C8D7DA  ;">50 milion&euml; euro</mark> p&euml;r pes&euml; sezone q&euml;ndrimi te sheik&euml;t e Ligue 1.
+          Sipas raportimeve t&euml; para, futbollisti do t&euml; ark&euml;toj&euml; 8 milion&euml; euro. n&euml; vit plus bonuset q&euml; do t&euml; jen&euml; t&euml; varura prej rezultateve pozitive t&euml; kampionit t&euml; Ligue 1.
+          Theksojm&euml; se parisien&euml;t do t&euml; ken&euml; mund&euml;si q&euml; n&euml; fund t&euml; sezonin ta transferojn&euml; futbollistin, i cili do t&rsquo;iu kushtoj&euml; 50 milion&euml; euro p&euml;r pes&euml; sezone q&euml;ndrimi te sheik&euml;t e Ligue 1.
          
         </h3> 
       </article>
@@ -258,7 +258,7 @@ crossorigin="anonymous">
       <div class="footerRight2">
         <img id="ibrahimovic" src="images/ibrahimovic.jpg" width="100" height="100" alt="Ibrahimovic" align="right">
         <h1 class="footerTitle"> Zyrtare : Ibrahimovic lojtar i AC Milan</h1>
-        <h3 class="footerText"> Suedezi Zlatan Ibrahimovic rikthehet tek ekipi italian Milano. Ky transferim u krye si transfer i lire pasi qe Ibrahimovicit i ka skaduar kontrata me LA Galaxy. Ai ka nenshkruar kontrate 6 mujore ku do te perfitoje <mark style="background-color: #C8D7DA  ;">3 milion&euml; euro</mark> , dhe do te kete mundesi vazhdimi edhe per nje vit. Pritet qe ridebutimin ta beje kunder Sampdorias</h3>
+        <h3 class="footerText"> Suedezi Zlatan Ibrahimovic rikthehet tek ekipi italian Milano. Ky transferim u krye si transfer i lire pasi qe Ibrahimovicit i ka skaduar kontrata me LA Galaxy. Ai ka nenshkruar kontrate 6 mujore ku do te perfitoje 3 milion&euml; euro , dhe do te kete mundesi vazhdimi edhe per nje vit. Pritet qe ridebutimin ta beje kunder Sampdorias</h3>
 
       </div>
     </div>
@@ -273,7 +273,7 @@ crossorigin="anonymous">
 </div>
 
 
-<script >
+<script>
 $(document).ready(function(){
 $("#footerToggle").click(function(){
 $("#footer").toggle();
