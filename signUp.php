@@ -7,85 +7,115 @@
 
   <body>
     <div class="main">
-      <div class="logo">
+      <div class="logo" style="display: flex; justify-content: center;">
         <a href="index.php">
-          <img
-            src="images/tflogo.png"
-            style="display: block; margin-left: auto; margin-right: auto;"
-          />
-        </a>  
+          <img src="images/tflogo.png" />
+        </a>
       </div>
       <div class="signUpforms">
-        <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Regjistrohu</h2>
-        <form name="myForm" style="padding-left: 40px;">
-          <div class="emri">
-            <label for="emri" style="padding-left:6px;">Emri</label></br>
+        <h2
+          style="text-align: center; padding-top: 20px; padding-bottom: 20px;"
+        >
+          Regjistrohu
+        </h2>
+        <form
+          name="myForm"
+          style="padding-left: 40px;"
+          action="registration.php"
+          method="POST"
+        >
+          <div class="input-container">
+            <label for="emri" style="padding-left: 6px;">Emri</label>
+            <br />
             <input
               type="text"
               placeholder="Shkruani emrin tuaj..."
-              name="Emri"
+              name="emri"
               id="idemri"
             />
           </div>
-          <div class="mbiemri">
-            <label for="mbiemri" style="padding-left:6px;">Mbiemri</label></br>
+
+          <div class="input-container">
+            <label for="mbiemri" style="padding-left: 6px;">Mbiemri</label>
+            <br />
             <input
               type="text"
               placeholder="Shkruani mbiemrin tuaj..."
-              name="Mbiemri"
+              name="mbiemri"
               id="idmbiemri"
             />
           </div>
-          <div class="email">
-            <label for="email" style="padding-left:6px;">Email</label></br>
+
+          <div class="input-container">
+            <label for="email" style="padding-left: 6px;">Email</label>
+            <br />
             <input
               type="text"
               placeholder="Shkruani email tuaj..."
-              name="Email"
+              name="email"
               id="idemail"
             />
           </div>
-          <div class="password">
-            <label for="password" style="padding-left:6px;">Password</label></br>
+
+          <div class="input-container">
+            <label for="password" style="padding-left: 6px;">Password</label>
+            <br />
             <input
               type="password"
               placeholder="Shkruani passwordin tuaj..."
-              name="Password"
+              name="password"
               id="idpasswordi"
             />
           </div>
-          <div class="retypepass">
-            <label for="password" style="padding-left:6px;">Ri-shkruani passwordin</label></br>
+
+          <div class="input-container">
+            <label for="password" style="padding-left: 6px;"
+              >Ri-shkruani passwordin</label
+            ><br />
             <input
               type="password"
               placeholder="Ri-shkruani passwordin tuaj..."
-              name="Password"
+              name="password"
               id="idpasswordi2"
             />
           </div>
+
           <label for="date">Data e lindjes: </label>
-          <input type="date" name="datelindja" id="iddatelindja" /></br></br>
+          <input type="date" name="datelindja" id="iddatelindja" /><br /><br />
+
           <div class="gjinia">
-            Gjinia:
-            <input type="radio" name="gender" value="male" />Mashkull
-            <input type="radio" name="gender" value="female" />Femer</br></br>
+            Gjinia: <input type="radio" name="gender" value="Mashkull"
+            <?php if (isset($gender) && $gender=="Mashkull" ) ?>
+            />Mashkull <input type="radio" name="gender" value="Femer"
+            <?php if (isset($gender) && $gender=="Femer" ) ?>
+            />Femer<br /><br />
           </div>
-          <div class="kushtetEPrivatesise" style="display: flex">
+
+          <div class="kushtetEPrivatesise" style="display: flex;">
             <label class="switch">
-              <input type="checkbox">
+              <input type="checkbox" />
               <span class="slider round"></span>
             </label>
             <div class="toggleText">
-              <p style="padding-left: 10px; padding-top: 5.5px; " >Pajtohem me kushtet dhe termet e privatesise</p>
+              <p style="padding-left: 10px; padding-top: 5.5px;">
+                Pajtohem me kushtet dhe termet e privatesise
+              </p>
             </div>
           </div>
-          <div class="submitButtoni" style="padding-top: 10px; padding-bottom: 30px;">
+
+          <div
+            class="submitButtoni"
+            style="padding-top: 10px; padding-bottom: 30px;"
+          >
             <input type="submit" value="Regjistrohu" />
           </div>
+        </form>
       </div>
+
       <div class="toLogin">
-        <p style="text-align: center;">Posedoni nje llogari? <a href="signIn.php">Kycu</a> </p>
-        
+        <p style="text-align: center;">
+          Posedoni nje llogari? <a href="signIn.php">Kycu</a>
+        </p>
       </div>
     </div>
   </body>
