@@ -17,7 +17,7 @@
       </div>
       <div class="signUpforms">
         <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Kycu</h2>
-        <form name="myForm" style="padding-left: 40px;">
+        <form name="myForm" style="padding-left: 40px;" action="validation.php" method="POST">
           <div class="email">
             <label for="email" style="padding-left:6px;">Email</label></br>
             <input
