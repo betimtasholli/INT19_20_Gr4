@@ -44,6 +44,41 @@
   margin-top: 5px;
 }
 
+.sign-buttons {
+  background-color: #2e3f51;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.rightSideTopBar {
+  display: flex;
+}
+
+.lsButtons {
+  display: flex;
+  border-radius: 14px;
+  padding-right: 7px;
+}
+
+.signin {
+  display: flex;
+  border-radius: 14px;
+  padding-right: 7px;
+}
+
+.sign-buttons:hover {
+  background-color: #999;
+}
+
+.signup {
+  display: flex;
+  border-radius: 14px;
+  padding-right: 7px;
+}
+
 .search-form {
   display: block;
   display: flex;

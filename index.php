@@ -79,14 +79,24 @@
               </div>
             </a>
           </div>
-          <div class="search-form">
-            <input
-              class="search-input"
-              type="text"
-              name="search"
-              placeholder=""
-            />
-            <img src="./images/search-solid.svg" class="search-icon" width="10px" alt="">
+          <div class="rightSideTopBar">
+            <div class="lsButtons">
+              <div class="signup">
+              <a href="signUp.php"><button class="sign-buttons">Sign Up</button></a>
+              </div>
+              <div class="signin">
+                <a href="signIn.php"><button class="sign-buttons">Sign In</button></a>
+              </div>
+            </div>
+            <div class="search-form">
+              <input
+                class="search-input"
+                type="text"
+                name="search"
+                placeholder=""
+              />
+              <img src="./images/search-solid.svg" class="search-icon" width="10px" alt="">
+            </div>
           </div>
         </div>
       </div>

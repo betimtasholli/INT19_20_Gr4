@@ -87,14 +87,24 @@
               </div>
             </a>
           </div>
-          <div class="search-form">
-            <input
-              class="search-input"
-              type="text"
-              name="search"
-              placeholder=""
-            />
-            <img src="./images/search-solid.svg" class="search-icon" width="10px" alt="">
+          <div class="rightSideTopBar">
+            <div class="lsButtons">
+              <div class="signup">
+              <a href="signUp.php"><button class="sign-buttons">Sign Up</button></a>
+              </div>
+              <div class="signin">
+                <a href="signIn.php"><button class="sign-buttons">Sign In</button></a>
+              </div>
+            </div>
+            <div class="search-form">
+              <input
+                class="search-input"
+                type="text"
+                name="search"
+                placeholder=""
+              />
+              <img src="./images/search-solid.svg" class="search-icon" width="10px" alt="">
+            </div>
           </div>
         </div>
       </div>
@@ -131,7 +141,7 @@
         </div>
       </div>
     </div>
-  </div>
+  
 
     <div class="footer">
       <div class="container">
@@ -162,7 +172,7 @@
               </br>
               <strong>Nëse dëshironi të na shkruani email </strong>
               <a id="emailHyperLink" href=mailto:talkfootball@gmail.com? subject="HTML link">kliko këtu </a>.
-            </div>
+          </div>
           
              
           <div class="kontakt">
@@ -182,7 +192,7 @@
                <textarea class="kontakt-text" id="idkomenti" name="subject" placeholder="Shkruaj diqka..."></textarea></br>
                <input class="submit-button" type="submit" value="Dergo"><br><br><br>
           </form>
-           </div>
+          </div>
         </div> 
         <hr>
         <div class="popup"><br><br>
@@ -195,10 +205,9 @@ function myFunction2() {
   var myWindow = window.open("\popup.html","","width=600,height=700");
 }
 </script>
+       </div>
     </div>
-      </div>
-      
-    </div>
+  </div>
 
   
 
