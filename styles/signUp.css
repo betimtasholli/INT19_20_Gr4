@@ -121,3 +121,8 @@ input:checked + .slider:before {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}

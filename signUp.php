@@ -32,6 +32,7 @@
               placeholder="Shkruani emrin tuaj..."
               name="emri"
               id="idemri"
+              required
             />
           </div>
 
@@ -43,6 +44,7 @@
               placeholder="Shkruani mbiemrin tuaj..."
               name="mbiemri"
               id="idmbiemri"
+              required
             />
           </div>
 
@@ -54,6 +56,7 @@
               placeholder="Shkruani email tuaj..."
               name="email"
               id="idemail"
+              required
             />
           </div>
 
@@ -65,6 +68,7 @@
               placeholder="Shkruani passwordin tuaj..."
               name="password"
               id="idpasswordi"
+              required
             />
           </div>
 
@@ -75,16 +79,22 @@
             <input
               type="password"
               placeholder="Ri-shkruani passwordin tuaj..."
-              name="password"
+              name="rewritePassword"
               id="idpasswordi2"
+              required
             />
           </div>
 
           <label for="date">Data e lindjes: </label>
-          <input type="date" name="datelindja" id="iddatelindja" /><br /><br />
+          <input
+            type="date"
+            name="datelindja"
+            id="iddatelindja"
+            required
+          /><br /><br />
 
           <div class="gjinia">
-            Gjinia: <input type="radio" name="gender" value="Mashkull"
+            Gjinia: <input type="radio" name="gender" value="Mashkull" required
             <?php if (isset($gender) && $gender=="Mashkull" ) ?>
             />Mashkull <input type="radio" name="gender" value="Femer"
             <?php if (isset($gender) && $gender=="Femer" ) ?>
@@ -93,7 +103,7 @@
 
           <div class="kushtetEPrivatesise" style="display: flex;">
             <label class="switch">
-              <input type="checkbox" />
+              <input type="checkbox" required />
               <span class="slider round"></span>
             </label>
             <div class="toggleText">
