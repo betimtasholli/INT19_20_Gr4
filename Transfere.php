@@ -1,3 +1,8 @@
+<?php  
+include('dbConnection.php');
+?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -67,14 +72,35 @@ crossorigin="anonymous">
             </a>
           </div>
           <div class="rightSideTopBar">
+            <?php 
+            session_start();
+            if(!isset($_SESSION['logged'])){ ?>
             <div class="lsButtons">
               <div class="signup">
-              <a href="signUp.php"><button class="sign-buttons">Sign Up</button></a>
+                <a href="signUp.php"
+                  ><button class="sign-buttons">Sign Up</button></a
+                >
               </div>
               <div class="signin">
-                <a href="signIn.php"><button class="sign-buttons">Sign In</button></a>
+                <a href="signIn.php"
+                  ><button class="sign-buttons">Sign In</button></a
+                >
               </div>
             </div>
+            <?php } 
+            else{ ?>
+            <div class="emailLogout" style="display: flex;">
+              <div class="email" style="padding-right: 7px; padding-top: 3px;">
+                <p style="color: white;"><?php echo $_SESSION['email']; ?></p>
+              </div>
+              <div class="logout" style="padding-right: 7px;">
+                <a href="logOut.php"
+                  ><button class="sign-buttons">Log Out</button></a
+                >
+              </div>
+            </div>
+            <?php } ?>
+
             <div class="search-form">
               <input
                 class="search-input"
@@ -82,7 +108,12 @@ crossorigin="anonymous">
                 name="search"
                 placeholder=""
               />
-              <img src="./images/search-solid.svg" class="search-icon" width="10px" alt="">
+              <img
+                src="./images/search-solid.svg"
+                class="search-icon"
+                width="10px"
+                alt=""
+              />
             </div>
           </div>
         </div>
