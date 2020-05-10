@@ -40,7 +40,7 @@ else {
     echo '</script>'; 
   } 
 
-  elseif (!preg_match("#.*^(?=.{8,20})(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*\W).*$#", $password )){
+  elseif (!preg_match("/^(?=[^\d]*\d)(?=[A-Z\d ]*[^A-Z\d ]).{8,}$/i", $passwordi )){
     echo '<script type="text/javascript">'; 
     echo 'alert("Passwordi duhet te permbaje 8 karaktere se paku, nje shkronje te madhe, se paku nje numer, se paku nje simbol!");';
     echo 'window.location= "signUp.php";';
