@@ -25,6 +25,7 @@
               placeholder="Shkruani email tuaj..."
               name="Email"
               id="idemail"
+              <?php if(isset($_COOKIE['email'])) { echo "value='{$_COOKIE['email']}'"; } ?>
             />
           </div>
           <div class="password">
@@ -34,19 +35,20 @@
               placeholder="Shkruani passwordin tuaj..."
               name="Password"
               id="idpasswordi"
+              <?php if(isset($_COOKIE['password'])) { echo "value='{$_COOKIE['password']}'"; } ?>
             />
           </div>
-          <div class="kushtetEPrivatesise" style="display: flex">
+          <div class="rememberMe" style="display: flex">
             <label class="switch">
-              <input type="checkbox">
+              <input type="checkbox" name="rememberme" value="1">
               <span class="slider round"></span>
             </label>
             <div class="toggleText">
-              <p style="padding-left: 10px; padding-top: 5.5px; " >Me mbaj te kycur</p>
+              <p style="padding-left: 10px; padding-top: 5.5px; " >Me mbaj mend</p>
             </div>
           </div>
           <div class="submitButtoni" style="padding-top: 10px; padding-bottom: 30px;">
-            <input type="submit" value="Kycu" />
+            <input type="submit" value="Kycu" name="kycu"/>
           </div>
       </div>
       <div class="toLogin">
