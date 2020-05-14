@@ -231,24 +231,24 @@ include('dbConnection.php');
                <input class="kontakt-text" type="text" id="idemail" name="email" placeholder="E-maili juaj..."></br>
                <label for="subject">Komenti:</label> </br>
                <textarea class="kontakt-text" id="idkomenti" name="subject" placeholder="Shkruaj diqka..."></textarea></br>
-               <input class="submit-button" type="submit" value="Dergo"><br><br><br>
+               <input class="submit-button" type="submit" name="submit" value="Dergo"><br><br><br>
           </form>
           </div>
         </div> 
     </div>
   </div>
     <?php
+    if(isset($_POST['submit'])){
       $emri = $_POST['firstname'];
       $mbiemri = $_POST['lastname'];
       $email = $_POST['email'];
       $komenti = $_POST['subject'];
-
-      $kritika = $emri." ".$mbiemri."  ".$email." : ".$komenti;
-      echo $kritika;
-      $file = "kritikat.txt";
-      file_put_contents($file, $kritika);
       
 
+      $kritika = $emri." ".$mbiemri."  ".$email." : ".$komenti. "\r\n" ;
+      $file = "kritikat.txt";
+      file_put_contents($file, $kritika, FILE_APPEND);
+    }
     ?>
 
   

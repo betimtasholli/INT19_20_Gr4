@@ -8,6 +8,7 @@ include('dbConnection.php');
   <head>
     <title>Talk Football</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="shortcut icon" href="images/tflogo.ico" type="image/x-icon"/>
     <script>
       function dayandnight() {
         var current = new Date();
