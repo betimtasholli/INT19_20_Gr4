@@ -184,8 +184,30 @@ include('dbConnection.php');
               me seli n&euml; Prishtin&euml;, i themeluar n&euml; fund t&euml; vitit 2019, 
               nga Betim Tasholli, Egzon Gashi, Albin Semetishti dhe Arlind Berisha.
                N&euml; k&euml;t&euml; portal gjenden lajme nga futbolli vendor dhe
-               ai nd&euml;rkomb&euml;tar.</br></br></br></br></br>
-        
+               ai nd&euml;rkomb&euml;tar.</br></br>
+
+               <?php   // OOP implementation.
+
+              require 'Author.php';
+              require 'Director.php';
+              require 'Employees.php';
+
+             $Director  = new Director('Egzon', 'Gashi', '13 janar 2000', '2010', 'Lipjan','250$', '3');
+             $Employee1 = new Employees('Albin', 'Semetishti', '12 janar 2001', '2011', 'Ferizaj', '245$');
+             $Employee2 = new Employees('Betim', 'Tasholli', '5 shkurt 2001', '2012', 'Mitrovice te Veriut', '230$');
+             $Employee3 = new Employees('Arlind', 'Berisha', '8 gusht 1999', '2014', 'Peje', '200$');
+
+              echo '<strong>Drejtori i web-faqes:</strong><br>';
+              echo $Director->firstName . ' ' . $Director->lastName . ' i lindur me ' . $Director->get_birthDate() . '. Jeton ne ' . $Director->get_city() . '. Eshte drejtori i web-faqes nga viti ' . $Director->get_startYear() . '. Ka gjithsej ' . $Director->get_numriIPuntoreve() . ' puntore. Paga e tij mujore eshte ' . $Director->get_wage() . '.<br><br>';
+
+              echo '<strong>Puntoret:</strong><br>';
+              echo $Employee1->firstName . ' ' . $Employee1->lastName . ' i lindur me ' . $Employee1->get_birthDate() . '. Jeton ne ' . $Employee1->get_city() . '. Eshte puntor i web-faqes nga viti ' . $Employee1->get_startYear() . '. Paga e tij mujore eshte ' . $Employee1->get_wage() . '.<br>';
+              echo $Employee2->firstName . ' ' . $Employee2->lastName . ' i lindur me ' . $Employee2->get_birthDate() . '. Jeton ne ' . $Employee2->get_city() . '. Eshte puntor i web-faqes nga viti ' . $Employee2->get_startYear() . '. Paga e tij mujore eshte ' . $Employee2->get_wage() . '.<br>';
+              echo $Employee3->firstName . ' ' . $Employee3->lastName . ' i lindur me ' . $Employee3->get_birthDate() . '. Jeton ne ' . $Employee3->get_city() . '. Eshte puntor i web-faqes nga viti ' . $Employee3->get_startYear() . '. Paga e tij mujore eshte ' . $Employee3->get_wage() . '.<br>';
+
+              ?>
+
+              </br>
                <adress>
                 <strong>Adresa:</strong></br>
                 Rr.Llagjeja E Re, Sllovi</br>
@@ -202,8 +224,9 @@ include('dbConnection.php');
                 </adress>
               </br>
               <strong>Nëse dëshironi të na shkruani email </strong>
-              <a id="emailHyperLink" href=mailto:talkfootball@gmail.com? subject="HTML link">kliko këtu </a>.
-          </div>
+              <a id="emailHyperLink" href=mailto:talkfootball@gmail.com? subject="HTML link">kliko këtu.</a></br></br></br>
+            
+            </div>
           
              
           <div class="kontakt">

@@ -234,10 +234,7 @@
   background-color: #ddd;
 }
 
-.sub-menu:hover {
-  display: block;
-}
-.sub-menu-content {
+.sub-menu:hover .sub-menu-content {
   display: block;
 }
 
