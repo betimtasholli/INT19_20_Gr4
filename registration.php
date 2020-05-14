@@ -49,8 +49,17 @@ else {
 
   
   else{
-  $reg = "insert into perdoruesi(emri, mbiemri, email, passwordi, dataElindjes, gjinia) values ('$emri','$mbiemri','$email','$passwordi','$dataELindjes','$gjinia')";
-  mysqli_query($connect,$reg);
+  $reg = "insert into perdoruesi(emri, mbiemri, email, passwordi, dataElindjes, gjinia) values (?,?,?,?,?,?)";
+  
+  $stmt = mysqli_stmt_init($connect);
+
+  if (!mysqli_stmt_prepare($stmt, $reg)){
+    echo 'ERROR';
+  }
+  else {
+    mysqli_stmt_bind_param($stmt, 'ssssss', $emri, $mbiemri, $email, $passwordi, $dataELindjes, $gjinia);
+    mysqli_stmt_execute($stmt);
+  }
   echo"Regjistrimi u krye me sukses";
   header('location:signIn.php');}
 }
