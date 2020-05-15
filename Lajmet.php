@@ -242,26 +242,62 @@ include('dbConnection.php');
           <div class="content-block">
             <div class="contentLeft">
               <img
-                id="arsenal"
-                src="images/arsenalvmanutd.jpg"
+                id="topiarte"
+                src="images/topiarte.jpeg"
                 width="99%"
                 alt=""
               />
               <h1
                 style="color:#1f1f1f; font-size:20px;padding-top: 5px; padding-left:5px"
               >
-                Arsenali këndellet në derbi
+                Kush do ta fitoje topin e arte kete fundjave?
               </h1>
               <h3
                 style="color:#807d77; font-size: 14.5px; padding-top:5px; padding-left:5px"
               >
-                Arsenali ka arritur të shënojë fitore ndaj Manchester United me
-                rezultat 2-0. Derbi anglez i buzëqeshi londinezëve që treguan
-                formë të mirë dhe arritën ta mbyllin ndeshjen në pjesën e parë.
-                Në pjesën e dytë United u munduan të shënojnë, por nuk ia
-                arritën qëllimit.Arsenali tani është i 10-ti me 27 pikë, nëntë
-                më pak se vendi i katërt që mbahet nga Chelsea. Në anën tjetër
-                United me 31 pikë mbetet në pozitën e pestë.
+
+              <?php   // Implementimi i explode, implode, trim, substr, printf, str_replace & strlen.
+              
+              echo "Lionel Messi apo Cristiano Ronaldo? Cili do të jetë pasuesi i Luka Modricit si fitues i Topit të Artë? ";
+              echo "Votat qe do e caktojne fituesin e topit te arte, vijne nga: ";
+
+              $array = ['kapitenet e ekipeve', 'gazetaret e shteteve te ndryshme', 'ekspertet e futbollit'];
+              echo implode(', ', $array);   // IMPLODE!
+              echo ". ";
+              
+              echo " Ja disa statistika te kanditatave per fitimin e topit te arte: \n".'</br></br>';
+
+              $kanditati1 = '56 40 70 5';
+              list($golat, $asistet, $paraqitje, $trofet) = explode(' ', $kanditati1);   // EXPLODE!
+
+              echo str_replace("LM10","Lionel Messi","1. LM10 - Barcelona") . '</br>';   // STR_REPLACE!
+              echo "Golat: " . $golat . '</br>';
+              echo "Asistet: " . $asistet . '</br>';
+              echo "Paraqitje: " . $paraqitje . '</br>';
+              echo "Numri i trofeve: " . $trofet . '</br></br>';
+
+              $kanditati2 = '74 50 40 6';
+              list($golat, $asistet, $paraqitje, $trofet) = explode(' ', $kanditati2);
+
+              echo str_replace("CR7","Cristiano Ronaldo","2. CR7 - Juventus") . '</br>';  // STR_REPLACE!
+              echo "Golat: " . $golat . '</br>';
+              echo "Asistet: " . $asistet . '</br>';
+              echo "Paraqitje: " . $paraqitje . '</br>';
+              echo "Numri i trofeve: " . $trofet . '</br></br>';
+
+              $number = 5;   
+              $str1 = "topit te arte";   // PRINTF!
+              printf("Ja vlen te theksohet se te dy jane nga %u here fitues te %s.",$number,$str1);
+
+              echo substr("padyshim, Prandaj konsiderohen si dy lojtaret me te mire te te gjitha kohrave.",9)."<br>";   //SUBSTRS!
+
+              echo "Te dy kane shenuar gola me shifer " . strlen($golat) . " shifrore." . '</br>';   // STRLEN!
+
+              $str = "   Fituesi do te zgjedhet te dielen ne ora 19:00 ne Amsterdam te Holandes. ";
+              echo trim($str);   // TRIM!
+
+              ?>
+
               </h3>
             </div>
             <div class="contentRight">
