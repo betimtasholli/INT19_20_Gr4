@@ -38,9 +38,6 @@ if(isset($_POST['send']))
 
     $mail->AddAddress($emaili);
 
-    //$mail->AddAddress('albinsemetishti1@gmail.com');
-
-
     $mail->SMTPDebug = 0;
     $mail->IsHTML(true);
 
