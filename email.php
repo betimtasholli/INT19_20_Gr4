@@ -48,6 +48,7 @@ if(isset($_POST['send']))
     }
     else{
         echo 'Emaili u dergua!';
+        header('location:rrethnesh.php');
     }
 
     //$mail->smtpClose();
