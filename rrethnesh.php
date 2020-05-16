@@ -208,9 +208,19 @@ include('dbConnection.php');
              
           <div class="kontakt">
               <h3 style="text-align: center;">Formular per kontakt</h3></br>
-              <p>P&euml;rsh&euml;ndetje i nderuar vizitor. P&euml;r m&euml; shum&euml; informata rreth pun&euml;s, stafit, apo ndonj&euml; k&euml;shill&euml;&nbsp;ose sugjerim nga ana juaj drejtuar stafit te Talk football, plot&euml;soni formularin e m&euml;posht&euml;m.</p>
-              <p>&Ccedil;do kritik&euml; apo sugjerim nga ana juaj vlen shum&euml; p&euml;r ne.</p>
-              <p>Faleminderit p&euml;r koh&euml;n tuaj.</p></br></br>
+              <?php
+
+                $file = "rrethnesh.txt";
+                $document = file_get_contents($file);
+
+                $lines = explode("\n", $document);
+
+                foreach($lines as $newline){
+                  echo $newline,'<br>';
+                }
+
+              ?>
+              </br></br>
 
            <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
                <label for="fname">Emri:</label>
