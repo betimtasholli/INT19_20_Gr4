@@ -237,6 +237,19 @@ include('dbConnection.php');
         </div> 
     </div>
   </div>
+    <?php
+      $emri = $_POST['firstname'];
+      $mbiemri = $_POST['lastname'];
+      $email = $_POST['email'];
+      $komenti = $_POST['subject'];
+
+      $kritika = $emri." ".$mbiemri."  ".$email." : ".$komenti;
+      echo $kritika;
+      $file = "kritikat.txt";
+      file_put_contents($file, $kritika);
+      
+
+    ?>
 
   
 
