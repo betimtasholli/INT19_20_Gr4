@@ -225,7 +225,7 @@ include('dbConnection.php');
               </br>
               <a href="sendemail.php" subject="HTML link">Dergo email</a></br></br>
               <strong>Nëse dëshironi të na shkruani email </strong>
-              <a id="emailHyperLink" href=mailto:talkfootball@gmail.com? subject="HTML link">kliko këtu.</a></br></br></br>
+              <a id="emailHyperLink" href=mailto:talkfootball41@gmail.com? subject="HTML link">kliko këtu.</a></br></br></br>
             
             </div>
           

@@ -7,13 +7,10 @@
 
   <body>
     <div class="main">
-      <div class="logo">
-        <a href = "index.php">
-          <img
-            src="images/tflogo.png"
-            style="display: block; margin-left: auto; margin-right: auto;"
-          />
-        </a>  
+      <div class="logo" style="display: flex; justify-content: center;">
+        <a href="index.php">
+          <img src="images/tflogo.png" />
+        </a>
       </div>
       <div class="signUpforms">
         <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Kycu</h2>

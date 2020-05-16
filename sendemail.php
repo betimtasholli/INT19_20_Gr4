@@ -7,13 +7,10 @@
 
   <body>
     <div class="main">
-      <div class="logo">
-        <a href = "index.php">
-          <img
-            src="images/tflogo.png"
-            style="display: block; margin-left: auto; margin-right: auto;"
-          />
-        </a>  
+      <div class="logo" style="display: flex; justify-content: center;">
+        <a href="index.php">
+          <img src="images/tflogo.png" />
+        </a>
       </div>
       <div class="signUpforms">
         <h2 style="text-align: center; padding-top: 20px; padding-bottom: 20px;">Dergo email</h2>
@@ -28,7 +25,7 @@
             />
           </div>
           <div class="email">
-            <label for="password" style="padding-left:6px;">Subjekti:</label></br>
+            <label for="subjekti" style="padding-left:6px;">Subjekti:</label></br>
             <input
               type="text"
               placeholder="Subjekti..."
@@ -37,7 +34,7 @@
             />
           </div>
           <div class="email">
-            <label for="email" style="padding-left:6px;">Mesazhi:</label></br>
+            <label for="mesazhi" style="padding-left:6px;">Mesazhi:</label></br>
             <input
               type="text"
               placeholder="Mesazhi..."
@@ -47,10 +44,13 @@
           </div>
           
           <div class="submitButtoni" style="padding-top: 10px; padding-bottom: 30px;">
-            <input type="submit" value="Send" name="send"/>
+            <input type="submit" value="Dergo" name="send"/>
           </div>
       </div>
-
+    
+      <div class="toLogin">
+        <p style="text-align: center;">Nuk deshironi te shkruani email? <a href="index.php">Kthehu ne faqen kryesore</a> </p>
+      </div>
     </div>
   </body>
 </html>
