@@ -4,27 +4,16 @@
     <title>Talk Football</title>
     <link rel="stylesheet" type="text/css" href="styles/signIn.css" />
 
-      <script type="text/javascript">
-        $(document).ready(function() {
-        var frm = $('#myForm');
-        frm.submit(function(e){
-            e.preventDefault();
-
-            var formData = frm.serialize();
-            formData += '&' + $('#Nderro').attr('name') + '=' + $('#Nderro').attr('value');
-            $.ajax({
-                type: frm.attr('method'),
-                url: frm.attr('action'),
-                data: formData,
-                success: function(data){
-                    $('#message').html(data).delay(3000).fadeOut(3000);
-                },
-                error: function(jqXHR, textStatus, errorThrown) {
-                    $('#message').html(textStatus).delay(2000).fadeOut(2000);
-                }
-
-                });
-        });
+      <script>
+        $(function() {
+        function submitForm() {
+          var data = $("#newPassword").serialize();
+          $.ajax({
+            type : 'POST',
+            url  : "newPassword.php",
+            data : data,
+          });
+        }
       });
       </script>
   </head>
@@ -67,7 +56,7 @@
             />
           </div>
           <div class="submitButtoni" style="padding-top: 10px; padding-bottom: 30px;">
-            <input type="submit" value="Nderro" name="Nderro"/>
+            <input type="submit" value="Nderro" name="Nderro" onclick="submitForm()"/>
           </div>
       </div>
       <div class="toLogin">
