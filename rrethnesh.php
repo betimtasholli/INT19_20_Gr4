@@ -223,6 +223,7 @@ include('dbConnection.php');
               talkfootball2019@outlook.com</br></br>
                 </adress>
               </br>
+              <a href="sendemail.php" subject="HTML link">Dergo email</a></br></br>
               <strong>Nëse dëshironi të na shkruani email </strong>
               <a id="emailHyperLink" href=mailto:talkfootball@gmail.com? subject="HTML link">kliko këtu.</a></br></br></br>
             
