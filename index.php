@@ -551,7 +551,7 @@ include('dbConnection.php');
             <table>
               <tr>
                 <td>
-                  <a href="Lajmet.html#liverpool">
+                  <a href="Lajmet.php#liverpool">
                     <img
                       class="galleryImg"
                       src="images/liverpool.jpg"
@@ -561,7 +561,7 @@ include('dbConnection.php');
                   /></a>
                 </td>
                 <td>
-                  <a href="Lajmet.html#mancityveverton">
+                  <a href="Lajmet.php#mancityveverton">
                     <img
                       class="galleryImg"
                       src="images/mancityveverton.jpg"
@@ -571,7 +571,7 @@ include('dbConnection.php');
                   /></a>
                 </td>
                 <td>
-                  <a href="Transfere.html#deligt">
+                  <a href="Transfere.php#deligt">
                     <img
                       class="galleryImg"
                       src="images/deligt.jpg"
@@ -583,7 +583,7 @@ include('dbConnection.php');
               </tr>
               <tr>
                 <td>
-                  <a href="Transfere.html#kessie">
+                  <a href="Transfere.php#kessie">
                     <img
                       class="galleryImg"
                       src="images/kessie.jpg"
@@ -593,7 +593,7 @@ include('dbConnection.php');
                   /></a>
                 </td>
                 <td>
-                  <a href="Transfere.html#icardi">
+                  <a href="Transfere.php#icardi">
                     <img
                       class="galleryImg"
                       src="images/icardi.jpg"
@@ -603,7 +603,7 @@ include('dbConnection.php');
                   /></a>
                 </td>
                 <td>
-                  <a href="Transfere.html#ibrahimovic">
+                  <a href="Transfere.php#ibrahimovic">
                     <img
                       class="galleryImg"
                       src="images/ibrahimovic.jpg"
@@ -615,7 +615,7 @@ include('dbConnection.php');
               </tr>
               <tr>
                 <td>
-                  <a href="Lajmet.html#arsenal">
+                  <a href="Lajmet.php#arsenal">
                     <img
                       class="galleryImg3"
                       src="images/arsenalvmanutd.jpg"
@@ -625,7 +625,7 @@ include('dbConnection.php');
                   /></a>
                 </td>
                 <td>
-                  <a href="Lajmet.html#ancelotti">
+                  <a href="Lajmet.php#ancelotti">
                     <img
                       class="galleryImg3"
                       src="images/ancelotti.jpg"
@@ -635,7 +635,7 @@ include('dbConnection.php');
                   /></a>
                 </td>
                 <td>
-                  <a href="Lajmet.html#arthur">
+                  <a href="Lajmet.php#arthur">
                     <img
                       class="galleryImg3"
                       src="images/arthur.jpeg"
