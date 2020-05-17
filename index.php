@@ -113,6 +113,11 @@ include('dbConnection.php');
                 <p style="color: white;"><?php echo $_SESSION['email']; ?></p>
               </div>
               <div class="logout" style="padding-right: 7px;">
+                <a href="changePassword.php"
+                  ><button class="sign-buttons">Change Password</button></a
+                >
+              </div>
+              <div class="logout" style="padding-right: 7px;">
                 <a href="logOut.php"
                   ><button class="sign-buttons">Log Out</button></a
                 >
