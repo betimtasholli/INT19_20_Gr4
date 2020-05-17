@@ -227,6 +227,37 @@ include('dbConnection.php');
               talkfootball@gmail.com</br>
               talkfootball2019@outlook.com</br></br>
                 </adress>
+               
+             <?php   // Implementimi i READ FROM MYSQL DATABASE.
+
+              $emaila = $_SESSION['email'];
+
+              $servername = "localhost";
+              $username = "root";
+              $password = "";
+              $dbname = "talkfootball";
+
+              $conn = new mysqli($servername, $username, $password, $dbname);
+
+              if ($conn->connect_error) {
+              die("Connection failed: " . $conn->connect_error);
+              } 
+
+              $sql = "SELECT perdoruesiId, emri, mbiemri, dataELindjes, gjinia, email FROM perdoruesi where email ='$emaila'";
+              $result = $conn->query($sql);
+
+              if ($result->num_rows > 0) {
+
+              while($row = $result->fetch_assoc()) {
+              echo "<strong>Te dhenat e juaja:</strong><br>";
+              echo "Numri i identifikimit: " . $row["perdoruesiId"]. "<br>Emri: " . $row["emri"]. "<br>Mbiemri: " . $row["mbiemri"]. "<br>" . "Data e lindjes: " . $row["dataELindjes"] . "<br>" . "Gjinia: "  . $row["gjinia"] . "<br>" . "E-mail: "  . $row["email"] . "<br>"                           ;
+              }
+              } else {
+              echo "0 results";
+              }
+              $conn->close();
+              ?>
+
               </br>
               <a href="sendemail.php" subject="HTML link">Dergo email</a></br></br>
               <strong>Nëse dëshironi të na shkruani email </strong>
